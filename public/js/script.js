@@ -85,7 +85,7 @@ function toggleBtnAnimation() {
 
 const socket = io();
 socket.on('bot reply', botMessage => {
-  speak(botMessage);
+//   speak(botMessage);
   messengerObj.bot(botMessage);
 });
 
