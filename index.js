@@ -1,6 +1,6 @@
 // const APIAI_TOKEN = process.env.APIAI_TOKEN;
 // const APIAI_SESSION_ID = process.env.APIAI_SESSION_ID;
-const APIAI_TOKEN = '183d7ca8b0e04a56beb8baee896d9a2d';
+const APIAI_TOKEN = 'cf9e9603edaa40d5a52f361fe0b20cd2';
 const APIAI_SESSION_ID = '12345';
 
 const express = require('express');
