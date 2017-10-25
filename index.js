@@ -9,7 +9,7 @@ const app = express();
 	app.use(express.static(__dirname + '/views'));
 	app.use(express.static(__dirname + '/public'));
 
-	const server = app.listen(5000, console.log('berhasil, listen in port 5000'));
+	const server = app.listen(process.env.PORT || 5000, console.log('berhasil, listen in port 5000'));
 	
 	const apiai = require('apiai')(APIAI_TOKEN);
 	const io = require('socket.io')(server);
