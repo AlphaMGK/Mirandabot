@@ -25,7 +25,7 @@ const app = express();
 	});
 
 	io.on('connection', function(socket){
-		socket.on('chat msg', function(text){
+		socket.on('voice message', function(text){
 			console.log(text);
 			
 			let apiaiReq = apiai.textRequest(text, {
