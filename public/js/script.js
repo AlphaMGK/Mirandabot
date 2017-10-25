@@ -1,5 +1,5 @@
-const speechRecognition = window.speechRecognition ||  window.webkitSpeechRecognition;
-const reco = new speechRecognition();
+const SpeechRecognition = window.speechRecognition ||  window.webkitSpeechRecognition;
+const reco = new SpeechRecognition();
 const socket = io();
 
 reco.lang = 'en-US';
