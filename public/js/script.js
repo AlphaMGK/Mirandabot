@@ -1,4 +1,4 @@
-const SpeechRecognition = window.speechRecognition ||  window.webkitSpeechRecognition;
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const reco = new SpeechRecognition();
 const socket = io();
 
