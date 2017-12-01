@@ -2,7 +2,7 @@ mirandabot
 ********************************
 Miranda bot using Nodejs, with express framework.
 
-NPM:
+- NPM
 - express
 - sockets
 - apiai
